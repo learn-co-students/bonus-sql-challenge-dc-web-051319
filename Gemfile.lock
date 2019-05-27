@@ -15,6 +15,7 @@ GEM
     arel (9.0.0)
     coderay (1.1.1)
     concurrent-ruby (1.1.5)
+    csv (3.1.1)
     i18n (1.6.0)
       concurrent-ruby (~> 1.0)
     method_source (0.8.2)
@@ -46,6 +47,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  csv
   pry
   sinatra-activerecord
   sqlite3

@@ -4,3 +4,4 @@ source "https://rubygems.org"
 gem 'sqlite3'
 gem 'pry'
 gem 'sinatra-activerecord', :require => 'active_record'
+gem 'csv'
