@@ -10,6 +10,14 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 0) do
+ActiveRecord::Schema.define(version: 2019_05_27_162730) do
+
+  create_table "guests", force: :cascade do |t|
+    t.integer "YEAR"
+    t.string "GoogleKnowlege_Occupation"
+    t.string "Show"
+    t.string "Group"
+    t.string "Raw_Guest_List"
+  end
 
 end
