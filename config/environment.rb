@@ -1,6 +1,7 @@
 require 'bundler'
 Bundler.require
-require 'active_record'
+require 'activerecord-import'
+require 'csv'
 
 # Setup a DB connection here
 

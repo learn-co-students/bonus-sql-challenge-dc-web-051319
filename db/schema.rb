@@ -10,14 +10,6 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2019_05_27_162730) do
-
-  create_table "guests", force: :cascade do |t|
-    t.integer "year"
-    t.string "occupation"
-    t.string "show"
-    t.string "group"
-    t.string "name"
-  end
+ActiveRecord::Schema.define(version: 0) do
 
 end

@@ -1,6 +1,7 @@
 # Parse the CSV and seed the database here! Run 'ruby db/seed' to execute this code.
 require 'csv'
-#require 'activerecord-import'
+require_relative '../app/models/guest.rb'
+require_relative '../config/environment.rb'
 
 rows = []
 
@@ -9,5 +10,4 @@ CSV.foreach('./daily_show_guests.csv', headers: true) do |row|
     rows << row_to_insert
 end
 
-puts rows
-
+Guest.import rows, validate: false
